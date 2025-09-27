@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barbearia Prime – Corte de primeira na sua região</title>
+    <meta name="description" content="Cortes masculinos, barba e acabamento com qualidade e preço justo. Reserve seu horário pelo WhatsApp.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Ajustes rápidos */
+      .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+    </style>
+  </head>
+  <body class="antialiased text-slate-800">
+    <!-- Header -->
+    <header class="bg-white sticky top-0 z-50 border-b">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="#" class="font-extrabold text-xl">Barbearia <span class="text-emerald-600">Prime</span></a>
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="#servicos" class="hover:text-emerald-700">Serviços</a>
+          <a href="#galeria" class="hover:text-emerald-700">Galeria</a>
+          <a href="#depoimentos" class="hover:text-emerald-700">Depoimentos</a>
+          <a href="#contato" class="hover:text-emerald-700">Contato</a>
+        </nav>
+        <a id="cta-whats-top" href="https://wa.me/5599999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." class="inline-block bg-emerald-600 text-white px-4 py-2 rounded-xl font-semibold shadow-soft hover:bg-emerald-700">
+          Agendar no WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-gradient-to-b from-emerald-50 to-white">
+      <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            Corte de primeira, <span class="text-emerald-700">sem enrolação</span>.
+          </h1>
+          <p class="mt-4 text-lg text-slate-600">
+            Qualidade, atenção aos detalhes e pontualidade. Barbearia de confiança com agenda rápida.
+          </p>
+          <div class="mt-6 flex gap-3">
+            <a id="cta-whats-hero" href="https://wa.me/5599999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." class="bg-emerald-600 text-white px-5 py-3 rounded-xl font-semibold shadow-soft hover:bg-emerald-700">
+              Reservar horário
+            </a>
+            <a href="#servicos" class="px-5 py-3 rounded-xl font-semibold border">
+              Ver serviços
+            </a>
+          </div>
+          <ul class="mt-6 grid grid-cols-2 gap-3 text-sm">
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> Profissionais experientes</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> Barba & cabelo</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> Ambiente climatizado</li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> Pagamento Pix/Cartão</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl overflow-hidden shadow-soft">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="Corte de cabelo em barbearia" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold">Serviços</h2>
+        <p class="text-slate-600 mt-2">Escolha o serviço ideal para você:</p>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="p-6 border rounded-2xl shadow-soft">
+            <h3 class="font-bold text-xl">Corte Masculino</h3>
+            <p class="text-slate-600 mt-2">Corte na tesoura ou máquina, acabamento preciso.</p>
+            <p class="mt-4 font-extrabold text-emerald-700">R$ 35</p>
+          </div>
+          <div class="p-6 border rounded-2xl shadow-soft">
+            <h3 class="font-bold text-xl">Barba Completa</h3>
+            <p class="text-slate-600 mt-2">Aparar, desenhar e hidratar com toalha quente.</p>
+            <p class="mt-4 font-extrabold text-emerald-700">R$ 30</p>
+          </div>
+          <div class="p-6 border rounded-2xl shadow-soft">
+            <h3 class="font-bold text-xl">Corte + Barba</h3>
+            <p class="text-slate-600 mt-2">Pacote completo com desconto especial.</p>
+            <p class="mt-4 font-extrabold text-emerald-700">R$ 60</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="py-16 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold">Galeria</h2>
+        <p class="text-slate-600 mt-2">Alguns resultados do nosso trabalho:</p>
+        <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <img class="rounded-xl shadow-soft" src="https://images.unsplash.com/photo-1516410529446-2c777cb7366d?q=80&w=1200&auto=format&fit=crop" alt="Resultado 1">
+          <img class="rounded-xl shadow-soft" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" alt="Resultado 2">
+          <img class="rounded-xl shadow-soft" src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1200&auto=format&fit=crop" alt="Resultado 3">
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold">Depoimentos</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <blockquote class="p-6 border rounded-2xl shadow-soft text-slate-700">
+            "Melhor barbearia do bairro. Sempre saio satisfeito!" <br><span class="font-semibold">— João M.</span>
+          </blockquote>
+          <blockquote class="p-6 border rounded-2xl shadow-soft text-slate-700">
+            "Pontualidade e profissionalismo. Recomendo demais." <br><span class="font-semibold">— Carlos A.</span>
+          </blockquote>
+          <blockquote class="p-6 border rounded-2xl shadow-soft text-slate-700">
+            "Ambiente top e corte impecável." <br><span class="font-semibold">— Felipe R.</span>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-16 bg-emerald-600 text-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold">Agende seu horário</h2>
+        <p class="mt-2 text-emerald-50">Clique no botão e fale com a gente pelo WhatsApp.</p>
+        <a id="cta-whats-bottom" href="https://wa.me/5599999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." class="inline-block mt-6 bg-white text-emerald-700 px-6 py-3 rounded-xl font-semibold shadow-soft hover:opacity-90">
+          Falar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <footer class="py-8 text-center text-sm text-slate-500">
+      © <span id="year"></span> Barbearia Prime • Rua Exemplo, 123 • Cidade/UF
+    </footer>
+
+    <script>
+      // Atualiza ano e sincroniza todos botões de WhatsApp via um único número
+      const WHATSAPP_NUMERO = "5599999999999"; // <= TROCAR para o número do cliente com DDI 55
+      const MENSAGEM = "Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio.";
+      for (const el of document.querySelectorAll("[id^='cta-whats']")) {
+        el.href = `https://wa.me/${WHATSAPP_NUMERO}?text=${MENSAGEM}`;
+      }
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
